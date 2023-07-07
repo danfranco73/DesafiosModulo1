@@ -1,0 +1,30 @@
+//realizar una clase ProductManager que gestione un conjunto de productos
+// debe crearse desde su constructor con el elemento products inicializado como un array vacío
+// cada producto que gestinoe debe contar con las propiedades:
+// title, description, price, thumbnail, code, stock
+// aspectos a incluir:
+// debe contar con  un metdo addProduct el cual agregara un producto al array de productos inicial.
+// validar que no se repita el campo code y que todos los campos sean obligatorios
+// al agregarlo debe crearse con un id generado automaticamente y autoincremental
+// debe constar con un metodo getProducts el cual debe devolver el array de productos con todos los productos creados hasta el momento
+// debe contar con un metdo getProductById el cual debe buscar en el array el producto que coincida con el id
+// en caso de no coincidir mostrar en consola un error "Not found"
+
+
+
+
+// Testing
+
+//Se creará una instancia de la clase “ProductManager”
+//Se llamará “getProducts” recién creada la instancia, debe devolver un arreglo vacío []
+//Se llamará al método “addProduct” con los campos:
+//title: “producto prueba”
+//description:”Este es un producto prueba”
+//price:200,
+//thumbnail:”Sin imagen”
+//code:”abc123”,
+//stock:25
+//El objeto debe agregarse satisfactoriamente con un id generado automáticamente SIN REPETIRSE
+//Se llamará el método “getProducts” nuevamente, esta vez debe aparecer el producto recién agregado
+//Se llamará al método “addProduct” con los mismos campos de arriba, debe arrojar un error porque el código estará repetido.
+//Se evaluará que getProductById devuelva error si no encuentra el producto o el producto en caso de encontrarlo
