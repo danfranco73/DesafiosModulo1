@@ -36,6 +36,9 @@ class ProductManager {
   }
 }
 
+
+// testing 
+
 const productManager = new ProductManager();
 
 console.log(productManager.getProducts());
