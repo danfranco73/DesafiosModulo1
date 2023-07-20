@@ -86,39 +86,3 @@ class ProductManager {
 }
 
 module.exports = ProductManager;
-
-// Testing
-
-const productManager = new ProductManager("./productos.json");
-
-console.log(productManager.getProducts());
-
-const product = productManager.addProduct({
-  title: "producto prueba",
-  description: "Este es un producto prueba",
-  price: 200,
-  thumbnail: "Sin imagen",
-  code: "abc123",
-  stock: 25,
-});
-
-console.log(productManager.getProducts());
-
-console.log(productManager.getProductById(1));
-
-const productUpdated = productManager.updateProduct(1, {
-  title: "producto prueba xx",
-  description: "Este es un producto prueba cambiado",
-  price: 200,
-  thumbnail: "Sin imagen",
-  code: "jhsshsgh",
-  stock: 25,
-});
-
-console.log(productManager.getProducts());
-
-console.log(productManager.getProductById(1));
-
-productManager.deleteProduct(1);
-
-console.log(productManager.getProducts());

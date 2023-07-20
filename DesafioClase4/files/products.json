@@ -40,5 +40,33 @@
     "precio": 245,
     "imagen": "../Imagenes/arrozGallo.jfif",
     "cantidad": 350
+  },
+  {
+    "id": 7,
+    "nombre": "Arroz Gallo x 1kg",
+    "precio": 245,
+    "imagen": "../Imagenes/arrozGallo.jfif",
+    "cantidad": 350
+  },
+  {
+    "id": 8,
+    "nombre": "Arroz Lcchetti x 1kg",
+    "precio": 245,
+    "imagen": "../Imagenes/arrozGallo.jfif",
+    "cantidad": 350
+  },
+  {
+    "id": 9,
+    "nombre": "Arroz Maximo x 1kg",
+    "precio": 245,
+    "imagen": "../Imagenes/arrozGallo.jfif",
+    "cantidad": 350
+  },
+  {
+    "id": 10,
+    "nombre": "Arroz Letizia x 1kg",
+    "precio": 245,
+    "imagen": "../Imagenes/arrozGallo.jfif",
+    "cantidad": 350
   }
 ]
